@@ -1,0 +1,114 @@
+.backdrop {
+  background: rgba(97, 97, 97, 0.6);
+  backdrop-filter: blur(4px);
+  width: 100vw;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overscroll-behavior: contain;
+  z-index: 1000;
+  overflow: auto;
+}
+
+.modalStyled {
+  position: absolute;
+  background: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 280px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+  padding: 0px 12px;
+
+  @media screen and (min-width: 768px) {
+    width: 681px;
+    border-radius: 40px;
+    flex-direction: column;
+    top: 200px;
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.modalStyled h1 {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.96px;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+    letter-spacing: 1.44px;
+  }
+}
+
+.modalStyled h2 {
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.64px;
+  font-weight: 500;
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+    letter-spacing: 0.96px;
+  }
+}
+
+.modalStyled h3 {
+  font-size: 24px;
+  /* font-weight: 500; */
+  font-weight: 700;
+  letter-spacing: 0.96px;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.28px;
+  }
+}
+
+.modalStyled h4 {
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.56px;
+  font-weight: 500;
+  line-height: 1.29;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.16px;
+  }
+}
+
+.modalStyled p {
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.56px;
+  font-weight: 500;
+  line-height: 1.29;
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0.8px;
+  }
+}
+
+.closeModalButton {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 24px;
+  top: 12px;
+  @media screen and (min-width: 768px) {
+    top: 23px;
+    right: 38px;
+  }
+}
+.closeModalButton button {
+  border: none;
+}

@@ -1,0 +1,40 @@
+.logOut {
+  display: inline-flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 40px;
+  background: #54adff;
+  color: #fef9f9;
+  transition: transform 0.3s ease;
+  fill: #54adff;
+  stroke: #fef9f9;
+}
+
+.logOut:hover {
+  transform: scale(1.05);
+}
+@media only screen and (max-width: 767px) {
+  .logOut {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .logOut {
+    margin-right: 60px;
+  }
+}
+
+.cartLogout {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 8px;
+  fill: #fef9f9;
+  stroke: #54adff;
+  
+  
+}

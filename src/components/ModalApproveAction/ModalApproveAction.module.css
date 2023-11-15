@@ -1,0 +1,29 @@
+.modalTitle {
+  margin-bottom: 44px;
+  margin-top: 77px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 48px;
+    margin-top: 108px;
+  }
+}
+
+.modalButtonsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 17px;
+    margin-bottom: 109px;
+  }
+}
+
+.modalButtonsWrapper button {
+  width: 256px;
+  height: 40px;
+  @media screen and (min-width: 768px) {
+    width: 129px;
+  }
+}

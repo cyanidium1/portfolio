@@ -1,0 +1,71 @@
+.positioning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.name {
+  margin: 24px 0;
+  /* font-family: Manrope; */
+  font-size: 24px;
+  font-weight: 700;
+}
+.form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input {
+  background-color: #fff;
+  height: 44px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 3px 8px 14px 0px #88c6fd30;
+
+  font-size: 16px;
+  width: 280px;
+  outline: none;
+}
+.icon {
+  padding: 3px;
+  position: absolute;
+  right: 7px;
+  top: 4px;
+}
+.resetIcon {
+  stroke: #ffc107;
+}
+.searchIconWrapper {
+  position: absolute;
+  right: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Styles for screens from 768px to 1279px */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .name {
+    margin: 40px 0;
+  }
+  .positioning {
+    margin-bottom: 43px;
+  }
+  .input {
+    width: 608px;
+  }
+}
+
+/* Styles for screens from 1280px and above */
+@media screen and (min-width: 1280px) {
+  .positioning {
+    margin-bottom: 43px;
+  }
+  .name {
+    margin: 40px 0;
+  }
+  .input {
+    width: 608px;
+  }
+}

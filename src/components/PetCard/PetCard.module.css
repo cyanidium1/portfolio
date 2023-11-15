@@ -1,0 +1,125 @@
+.item {
+  /* height: 456px; */
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 3px 8px 14px 0px #88c6fd30;
+  border-radius: 0 0 40px 40px;
+
+  display: flex;
+  flex-direction: column;
+}
+/* Styles for screens from 768px to 1279px */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .item {
+    width: calc((100% - 32px) / 2); /* Display 2 items in a row */
+  }
+}
+
+/* Styles for screens from 1280px and above */
+@media screen and (min-width: 1280px) {
+  .item {
+    width: calc((100% - 96px) / 4); /* Display 4 items in a row */
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px 0;
+  height: 288px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.topParams {
+  display: flex;
+  justify-content: space-between;
+}
+
+.type {
+  display: flex;
+  font-size: 14px;
+  height: 32px;
+  align-items: center;
+
+  font-weight: 500;
+  background-color: #cce4fb;
+  padding: 0px 17px;
+  border-radius: 0 16px 16px 0;
+}
+
+.bottomParams {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+}
+.parameter {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #cce4fb;
+  width: 80px;
+  height: 28px;
+  padding: 2px 4px;
+  border-radius: 16px;
+}
+
+.iconWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 16px;
+  background-color: #cce4fb;
+}
+
+.heartIcon {
+  color: transparent;
+}
+.heartActiveIcon {
+  color: #54adff;
+}
+.heart {
+  stroke: #54adff;
+  fill: currentColor;
+}
+
+.trashIcon {
+  margin-top: 16px;
+}
+
+.heartIconActive {
+  fill: '#54ADFF';
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  stroke: #54adff;
+}
+
+.info {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 24px;
+
+  margin-top: auto;
+}
+
+.btn button {
+  width: 248px;
+  height: 38px;
+}
