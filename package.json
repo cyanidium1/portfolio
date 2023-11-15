@@ -1,8 +1,8 @@
 {
-  "name": "your-pet-front",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cyanidium1.github.io/your-pet-front/",
+  "homepage": "https://cyanidium1.github.io/portfolio/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
