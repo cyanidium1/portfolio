@@ -103,13 +103,14 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
-        buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        title="Создаю сайты которые приносят деньги"
+        description="Помогу вывести любой бизнес на новый уровень с использованием самых современных технологий и user-friendly дизайна."
+        buttonText="Посмотреть мой проект для крупного агентсва недвижимости"
+        // buttonLink="/projects/smart-sparrow"
+        buttonLink="https://www.bstrust369.com/"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Real estate website',
           textures: [
             {
               srcSet: `${sprTexture} 1280w, ${sprTextureLarge} 2560w`,
@@ -124,10 +125,10 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        title="Сайты которые одинаково хорошо смотрятся на любых экранах и устройствах"
+        description="Обратившись ко мне вы можете не переживать что потеряете клиента из-за того что сайт не будет работать на каком-то устройстве."
+        buttonText="Посмотреть сайт"
+        buttonLink="https://www.graph3d.pro/"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -148,9 +149,9 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
-        buttonText="View project"
+        title="От простого лендинга до сложных интернет магазинов"
+        description="Берусь за любую сложность проекта. Хотите одностраничник-визитку с красивым дизайном, анимацией и мультиязычностью - пожалуйста! Хотите маркетплейс с базой данных товаров, админ-панелью и автоматическими продажами? Не вопрос :)"
+        buttonText="Проект ресторана домашней кухни"
         buttonLink="/projects/slice"
         model={{
           type: 'laptop',

@@ -1,11 +1,18 @@
 {
-  "name": "Hamish Williams",
-  "role": "Designer",
-  "disciplines": ["Developer", "Prototyper", "Animator", "Illustrator", "Modder"],
+  "name": "CNDM Dev.",
+  "role": "Разработка сайтов",
+  "disciplines": [
+    "дизайнa",
+    "интерфейсa",
+    "сервера",
+    "базы данных",
+    "обработка фото",
+    "монтаж видео"
+  ],
   "url": "https://hamishw.com",
-  "twitter": "@hamishMW",
-  "figma": "@Hamish",
-  "github": "HamishMW",
-  "repo": "https://github.com/HamishMW/portfolio",
+  "twitter": "@",
+  "figma": "@",
+  "github": "cyanidium1",
+  "repo": "https://github.com/",
   "ascii": "__  __  __\n\u005C \u005C \u005C \u005C \u005C\u2215\n \u005C \u005C\u2215\u005C \u005C\n  \u005C\u2215  \u005C\u2215\n"
 }

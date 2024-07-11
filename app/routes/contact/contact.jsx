@@ -119,7 +119,7 @@ export const Contact = () => {
               as="h1"
               style={getDelay(tokens.base.durationXS, initDelay, 0.3)}
             >
-              <DecoderText text="Say hello" start={status !== 'exited'} delay={300} />
+              <DecoderText text="Написать сообщение" start={status !== 'exited'} delay={300} />
             </Heading>
             <Divider
               className={styles.divider}
@@ -133,14 +133,26 @@ export const Contact = () => {
               name="name"
               maxLength={MAX_EMAIL_LENGTH}
             />
-            <Input
+            {/* <Input
               required
               className={styles.input}
               data-status={status}
               style={getDelay(tokens.base.durationXS, initDelay)}
               autoComplete="email"
-              label="Your email"
+              label="Ваш email"
               type="email"
+              name="email"
+              maxLength={MAX_EMAIL_LENGTH}
+              {...email}
+            /> */}
+            <Input
+              required
+              className={styles.input}
+              data-status={status}
+              style={getDelay(tokens.base.durationXS, initDelay)}
+              // autoComplete="email"
+              label="Ваш мессенджер, никнейм или телефон с кодом страны"
+              // type="email"
               name="email"
               maxLength={MAX_EMAIL_LENGTH}
               {...email}
@@ -152,7 +164,7 @@ export const Contact = () => {
               data-status={status}
               style={getDelay(tokens.base.durationS, initDelay)}
               autoComplete="off"
-              label="Message"
+              label="Ваше сообщение"
               name="message"
               maxLength={MAX_MESSAGE_LENGTH}
               {...message}
@@ -192,7 +204,7 @@ export const Contact = () => {
               icon="send"
               type="submit"
             >
-              Send message
+              Отправить
             </Button>
           </Form>
         )}
@@ -206,7 +218,7 @@ export const Contact = () => {
               className={styles.completeTitle}
               data-status={status}
             >
-              Message Sent
+              Сообщение отправлено
             </Heading>
             <Text
               size="l"
@@ -215,7 +227,7 @@ export const Contact = () => {
               data-status={status}
               style={getDelay(tokens.base.durationXS)}
             >
-              I’ll get back to you within a couple days, sit tight
+              Я свяжусь с вами в ближайшее время
             </Text>
             <Button
               secondary
@@ -226,7 +238,7 @@ export const Contact = () => {
               href="/"
               icon="chevron-right"
             >
-              Back to homepage
+              Назад на главную
             </Button>
           </div>
         )}
