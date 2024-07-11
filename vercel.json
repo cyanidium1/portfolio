@@ -1,3 +1,0 @@
-{
-    "buildCommand": "remix vite:build"
-}
