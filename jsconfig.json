@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["./app/*"]
-    }
+    "baseUrl": "src",
+    "module": "commonjs"
   },
-  "include": ["app", ".storybook/story-container.jsx"]
+  "include": [
+    "src",
+    ".storybook/StoryContainer.js"
+  ]
 }
